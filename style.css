@@ -130,6 +130,11 @@ li{
   color: #243D63;
 }
 
+.header__form--wrapper{
+  display: flex;
+  justify-content: center;
+}
+
 .header__form{
   width: 100%;
   max-width: 500px;
@@ -173,4 +178,13 @@ li{
 .trusted_customers__img{
   margin-top: 24px;
   opacity: 0.6;
+}
+
+/* FEATURES */
+#features{
+  height: 100vh;
+}
+
+.features__container{
+  margin-top: 320px;
 }
