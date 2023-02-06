@@ -8,6 +8,21 @@
 
 }
 
+img{
+  width: 100%;
+}
+
+button{
+  cursor: pointer;
+}
+
+.btn{
+  background-color: #6415FF;
+  padding: 16px 40px;
+  color: white;
+  border-radius: 32px;
+}
+
 nav{
   height: 80px;
 }
@@ -20,24 +35,49 @@ li{
   list-style-type: none;
 }
 
+
 .row{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
+.purple{
+  color: #6415FF;
+}
+
+.pt32{
+  padding-top: 32px;
+}
+
+.pt80{
+  padding-top: 80px;
+}
+
 /* NAV */
 
 
 .nav__container{
-  margin-top: 80px;
+  margin-top: 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.logo__wrapper{
+  display: flex;
+  align-items: center;
+}
+
 .logo{
-  width: 80px;
+  width: 72px;
+  padding-right: 16px;
+}
+
+.logo__text{
+  color: #242424;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .nav__links {
@@ -47,16 +87,13 @@ li{
 
 .nav__link{
   padding-left: 32px;
-  color: #242424;
+  color: #243D63;
   font-size: 20px;
   font-weight: 500;
 }
 
 .nav__link--primary{
-  background-color: #6415FF;
-  padding: 16px 40px;
   color: white;
-  border-radius: 32px;
 }
 
 .account__log{
@@ -65,3 +102,75 @@ li{
   padding-right: 24px;
 }
 
+/* HEADING */
+
+#header{
+  margin: 0 32px;
+}
+
+.header__container{
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__text--wrapper{
+  width: 100%;
+  text-align: center;
+  padding-right: 80px;
+}
+
+.header__heading {
+  font-size: 64px;
+}
+
+.header__para{
+  font-size: 22px;
+  color: #243D63;
+}
+
+.header__form{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid rgba(128, 128, 128, 0.164);
+  border-radius: 56px;
+  padding: 8px;
+}
+
+.header__input{
+  flex-grow: 2;
+  border: none;
+  margin-left: 16px;
+  font-size: 20px;
+}
+
+.header__input::placeholder{
+  color: rgba(128, 128, 128, 0.554);
+  opacity: 1;
+}
+
+.header__input:focus{
+  outline: none;
+}
+
+.header__form:focus-within{
+  outline: 2px solid #6415FF;
+}
+
+.header__input--btn{
+  font-size: 24px;
+}
+
+.trusted_customers__heading{
+  color: #A0AEBF;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.trusted_customers__img{
+  margin-top: 24px;
+  opacity: 0.6;
+}
