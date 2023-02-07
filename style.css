@@ -7,10 +7,10 @@
   font-family: 'Roboto', sans-serif;
 
 }
-/* 
+
 img{
   width: 100%;
-} */
+}
 
 button{
   cursor: pointer;
@@ -22,6 +22,30 @@ button{
   color: white;
   border-radius: 32px;
   border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h2{
+  font-size: 64px;
+  color: #243D63;
+}
+
+h4{
+  font-size: 24px;
+  letter-spacing: 1.9px;
+  color: #6415FF;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+h5{
+  padding-top: 24px;
+  color: #7C8BA1;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-bottom: 32px;
 }
 
 nav{
@@ -36,6 +60,10 @@ li{
   list-style-type: none;
 }
 
+
+.container{
+  margin-top: 320px;
+}
 
 .row{
   width: 100%;
@@ -105,9 +133,6 @@ li{
 
 /* HEADING */
 
-#header{
-  margin: 0 32px;
-}
 
 .header__container{
   display: flex;
@@ -119,7 +144,6 @@ li{
 .header__text--wrapper{
   width: 100%;
   max-width: 640px;
-  text-align: center;
   padding-right: 80px;
 }
 
@@ -167,9 +191,7 @@ li{
   outline: 2px solid #6415FF;
 }
 
-.header__input--btn{
-  font-size: 24px;
-}
+
 
 .trusted_customers__heading{
   color: #A0AEBF;
@@ -261,5 +283,27 @@ li{
   font-size: 22px;
   font-weight: 400;
   line-height: 1.6;
+}
 
+/* QUALITY WORK SECTION */
+
+#quality_work{
+  height: 100vh;
+}
+
+.quality_work__row{
+  display: flex;
+}
+
+.quality_work__text{
+  padding-right: 80px;
+}
+
+.quality_work__title{
+  text-align: start;
+}
+
+.quality_work__img{
+  height: 100%;
+  max-width: 800px;
 }
