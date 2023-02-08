@@ -210,9 +210,11 @@ li{
 }
 
 /* FEATURES */
+
 #features{
   height: 100vh;
 }
+
 
 .features__container{
   margin-top: 320px;
@@ -230,7 +232,7 @@ li{
   font-size: 24px;
   letter-spacing: 1.9px;
   color: #6415FF;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
 .features__heading{
@@ -238,7 +240,7 @@ li{
   font-weight: 900;
   color: #243D63;
   letter-spacing: 1.5px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
 .features__para{
@@ -423,3 +425,138 @@ li{
   font-size: 20px;
   line-height: 1.6;
 }
+
+/* PRICING SECTION */
+
+#pricing{
+  height: 100vh;
+}
+
+.pricing__text--wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing__para{
+  max-width: 620px;
+  text-align: center;
+}
+
+.pricing__cards{
+  background-color: white;
+  display: flex;
+}
+
+.pricing__card{
+  text-align: center;
+  width: calc(100%/3);
+  border-radius: 16px;
+  margin: 0 32px;
+}
+
+.bottom_space{
+  margin-bottom: 16px;
+}
+
+
+
+.pricing__card--top-color-green{
+  height: 8px;
+  background: linear-gradient(90deg, rgba(58,178,160,1) 0%, rgba(128,229,216,1) 100%);
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+}
+
+.gradient_green{
+  background: linear-gradient(90deg, rgba(58,178,160,1) 0%, rgba(128,229,216,1) 100%);
+}
+
+.pricing__card--top-color-red{
+  height: 8px;
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+}
+
+.gradient_red{
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.pricing__card--top-space{
+  height: 8px;
+}
+
+
+hr{
+  border: 1px solid #CBD5E0;
+}
+
+.purple_border{
+  border-top: 1px solid #667DEA;
+}
+
+.pricing__card--interval, 
+.pricing__card--details-assistance,
+.pricing__card--button{
+  margin-bottom: 32px;
+}
+
+.pricing__card--details-title,
+.pricing__card--title,
+.pricing__card--button{
+  margin-top: 32px;
+}
+
+.pricing__card--title{
+  font-size: 24px;
+}
+
+.pricing__card--price{
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.pricing__card--interval{
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #A0AEBF;
+}
+
+.pricing__card--details-title{
+  font-size: 24px;
+}
+
+.pricing__card--details-templates,
+.pricing__card--details-landingpages,
+.pricing__card--details-internalpages,
+.pricing__card--details-assistance{
+  color: #7C8BA1;
+  font-weight: 500;
+}
+
+.pricing__card--button{
+  padding: 16px 64px;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 32px;
+}
+
+.white__font--card{
+  color: white;
+}
+
+.background__purple--gradient{
+  background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);;
+}
+
+.button-business{
+  background-color: white;
+}
+
+/* TESTIMONIALS SECTION */
