@@ -560,3 +560,17 @@ hr{
 }
 
 /* TESTIMONIALS SECTION */
+
+#testimonials{
+  height: 100vh;
+}
+
+.testimonials__row{
+  display: flex;
+}
+
+.testimonials__img{
+  width: 100%;
+  max-width: 640px;
+  margin-right: 64px;
+}
