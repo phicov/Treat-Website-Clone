@@ -70,6 +70,7 @@ li{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 80px;
 }
 
 .purple{
@@ -573,4 +574,45 @@ hr{
   width: 100%;
   max-width: 640px;
   margin-right: 64px;
+}
+
+.stars{
+  color: #F6AD54;
+  margin-bottom: 16px;
+}
+
+.review__title--1{
+  font-size: 24px;
+  color: #243D63;
+  margin-bottom: 16px;
+}
+
+.review__para--1{
+  font-size: 16px;
+  letter-spacing: 0.75px;
+  color: rgb(74 85 104);
+  margin-bottom: 24px;
+}
+
+.review__person--1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.review__person--title--1{
+  display: flex;
+  align-items: center;
+}
+
+.review__person--img--1{
+  width: 100%;
+  max-width: 80px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.review__person--title--name--1{
+  font-size: 20px;
+  color: #243D63;
+
 }
