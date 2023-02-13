@@ -82,7 +82,7 @@ li{
 }
 
 .pt80{
-  padding-top: 80px;
+  padding-top: 24px;
 }
 
 /* NAV */
@@ -566,13 +566,22 @@ hr{
   height: 100vh;
 }
 
+.testimonials__title{
+  text-align: start;
+  margin-bottom: 16px;
+}
+
+.testimonials__heading{
+  font-size: 48px;
+}
+
 .testimonials__row{
   display: flex;
 }
 
 .testimonials__img{
   width: 100%;
-  max-width: 640px;
+  max-width: 480px;
   margin-right: 64px;
 }
 
@@ -591,7 +600,8 @@ hr{
   font-size: 16px;
   letter-spacing: 0.75px;
   color: rgb(74 85 104);
-  margin-bottom: 24px;
+  margin-bottom: 40px;
+  line-height: 1.5;
 }
 
 .review__person--1{
@@ -614,5 +624,36 @@ hr{
 .review__person--title--name--1{
   font-size: 20px;
   color: #243D63;
-
+  margin-bottom: 4px;
 }
+
+.review__person--title--position--1{
+  color: #7C8BA1;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.review__person--arrows{
+  display: flex;
+  align-items: center;
+}
+
+.arrow__button{
+  height: 48px;
+  width: 48px;
+  border: none;
+  border-radius: 100%;
+  background-color: #E2E8F0;
+}
+
+.arrow{
+  width: 40%;
+  color: #5011CC;
+}
+
+.review__person--divider{
+  height: 30%;
+  border-right: solid 0.8px rgb(226, 232, 240);
+  margin: 0 10px;
+}
+
