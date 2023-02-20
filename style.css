@@ -278,9 +278,6 @@ a:hover{
 
 /* QUALITY WORK SECTION */
 
-#quality_work{
-  height: 100vh;
-}
 
 .quality_work__container{
   display: relative;
@@ -366,9 +363,7 @@ a:hover{
 
 /* VALUES SECTION */
 
-#values{
-  height: 100vh;
-}
+
 
 .values__row{
   display: flex;
@@ -671,6 +666,7 @@ hr{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 90%;
   height: 320px;
   background-color: #6415FF;
