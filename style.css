@@ -804,6 +804,8 @@ footer{
   }
   .closing__box{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .closing__header{
     text-align: center;
@@ -830,6 +832,11 @@ footer{
     align-items: center;
     text-align: center;
   }
+  /* FEATURES ADJUST */
+  .features__item{
+    margin-top: 32px;
+  }
+
   /* STEPS ADJUST */
   .steps__row{
     text-align: start;
@@ -875,7 +882,10 @@ footer{
   .review__person--title--1{
     margin-right: 32px;
   }
-
+  .values__items--wrapper{
+    display: flex;
+    justify-content: center;
+  }
 
 
 }
@@ -892,6 +902,38 @@ footer{
     width: 33%;
     padding-top: 32px;
   }
+  .footer__credits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__credits>*{
+    padding-bottom: 16px;
+  }
+  .closing__header{
+    max-width: 100%;
+  }
+  .steps__img{
+    width: 100%;
+  }
+  .features__item{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .uni__heading{
+    font-size: 32px;
+    text-align: center;
+  }
+  .uni__para{
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .header__heading{
+    font-size: 32px;
+  }
 }
 
 /* SMALL PHONES & LARGE PHONES/ */
@@ -904,6 +946,19 @@ footer{
   }
   .footer__links{
     width: 100%;
+    padding-top: 32px;
+  }
+  .closing__button--wrapper{
+    flex-direction: column;
+  }
+  .closing__button{
+    margin-top: 16px;
+  }
+
+  
+
+  .closing__header{
+    padding: 0;
     padding-top: 32px;
   }
 }
