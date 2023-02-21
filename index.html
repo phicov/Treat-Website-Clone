@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="./style.css">
   <script src="https://kit.fontawesome.com/8925cc1b40.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </head>
 <body>
   <section id="heading">
@@ -18,14 +19,45 @@
             <h2 class="logo__text">Treact</h2>
           </div>
           <ul class="nav__links">
-            <li><a href="" class="nav__link">About</a></li>
-            <li><a href="" class="nav__link">Blog</a></li>
-            <li><a href="" class="nav__link">Pricing  </a></li>
-            <li><a href="" class="nav__link">Contact Us</a></li>
+            <li><a href="" class="nav__link no-cursor">About</a></li>
+            <li><a href="" class="nav__link no-cursor">Blog</a></li>
+            <li><a href="" class="nav__link no-cursor">Pricing  </a></li>
+            <li><a href="" class="nav__link no-cursor">Contact Us</a></li>
             <div class="account__log">
-            <li><a href="" class="nav__link">Login</a></li></div>
-            <li><a href="" class="nav__link nav__link--primary btn">Sign Up</a></li>
+            <li><a href="" class="nav__link no-cursor">Login</a></li></div>
+            <li><a href="" class="nav__link nav__link--primary btn no-cursor">Sign Up</a></li>
           </ul>
+
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a href="#features" class="menu__link" onclick="closeMenu()">Features</a>
+              </li>
+              <li class="menu__list">
+                <a href="#quality_work" class="menu__link" onclick="closeMenu()">Quality Work</a>
+              </li>
+              <li class="menu__list">
+                <a href="#steps" class="menu__link"
+                onclick="closeMenu()">Steps</a>
+              </li>
+              <li class="menu__list">
+                <a href="#values" class="menu__link"
+                onclick="closeMenu()">Values</a>
+              </li>
+              <li class="menu__list">
+                <a href="#pricing" class="menu__link" onclick="closeMenu()" >Pricing</a>
+              </li>
+              <li class="menu__list">
+                <a href="#testimonials" class="menu__link" onclick="closeMenu()" >Testimonials</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <header>
@@ -36,7 +68,7 @@
             <div class="header__form--wrapper">
               <div class="header__form">
               <input class="header__input" type="email" name="" id="" placeholder="Your E-mail Address">
-              <button class="header__input--btn btn">Get Started</button>
+              <button class="header__input--btn btn no-cursor">Get Started</button>
             </div>
           </div>
             <div class="trusted_customers--wrapper">
@@ -123,7 +155,7 @@
           <h5 class="quality_work__para uni__para">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </h5>
-          <button class="quality_work__button btn">Learn More</button>
+          <button class="quality_work__button btn no-cursor">Learn More</button>
         </div>
         <img src="https://treact.owaiskhan.me/static/media/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="" class="quality_work__img">
       </div>
@@ -214,7 +246,7 @@
           </div>
           
         </div>
-        <button class="values__btn btn">Learn More</button>
+        <button class="no-cursor values__btn btn">Learn More</button>
         </div>
         <img src="https://treact.owaiskhan.me/static/media/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="" class="values__img img">
       </div>
@@ -263,7 +295,7 @@
               Basic Assistance
             </p>
             <hr>
-            <button class="pricing__card--button gradient_green">
+            <button class="pricing__card--button gradient_green no-cursor">
               BUY NOW
             </button>
           </div>
@@ -299,7 +331,7 @@
             </p>
             </div>
             <div class="purple_border">
-            <button class="pricing__card--button  button-business">
+            <button class="pricing__card--button  button-business no-cursor">
               <span class="purple">BUY NOW</span>
             </button>
             </div>
@@ -335,7 +367,7 @@
               Personal Assistance
             </p>
             <hr>
-            <button class="pricing__card--button gradient_red">
+            <button class="pricing__card--button gradient_red no-cursor">
               BUY NOW
             </button>
           </div>
@@ -371,11 +403,11 @@
             </div>
             </div>
             <div class="review__person--arrows">
-              <button class="review__arrow--left arrow__button">
+              <button class="review__arrow--left arrow__button no-cursor">
                 <svg class="arrow" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
               </button>
               <hr class="review__person--divider">
-              <button class="review__arrow--right arrow__button">
+              <button class="review__arrow--right arrow__button no-cursor">
                 <svg class="arrow" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
               </button>
             </div>
@@ -390,10 +422,10 @@
   <div class="closing__box container">
     <h2 class="closing__header">Developers all over the world are happily using Treact.</h2>
     <div class="closing__button--wrapper">
-    <button class="closing__button--start closing__button closing__item">
+    <button class="closing__button--start closing__button closing__item no-cursor">
       Get Started
     </button>
-    <button class="closing__button--contact closing__button closing__item">
+    <button class="closing__button--contact closing__button closing__item no-cursor">
       Contact Us
     </button>
   </div>
@@ -404,38 +436,38 @@
   <div class="footer__main--wrapper">
     <ul class="footer__links">
       <h3 class="footer__link--title">MAIN</h3>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Blog</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">FAQs</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Support</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">About Us</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Blog</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">FAQs</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Support</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">About Us</a></li>
     </ul>
     <ul class="footer__links">
       <h3 class="footer__link--title">PRODUCT</h3>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Log In</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Personal</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Business</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Team</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Log In</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Personal</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Business</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Team</a></li>
     </ul>
     <ul class="footer__links">
       <h3 class="footer__link--title">PRESS</h3>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Logos</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Events</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Stories</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Office</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Logos</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Events</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Stories</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Office</a></li>
     </ul>
     <ul class="footer__links">
       <h3 class="footer__link--title">TEAM</h3>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Career</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Founders</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Culture</a></li>
-      <li class="footer__link--wrapper"><a href=""class="footer__link">Onboarding</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Career</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Founders</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Culture</a></li>
+      <li class="footer__link--wrapper"><a href=""class="footer__link no-cursor">Onboarding</a></li>
     </ul>
     <ul class="footer__links">
       <h3 class="footer__link--title">LEGAL</h3>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">GDPR</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Privacy Policy</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Terms of Service</a></li>
-      <li class="footer__link--wrapper"><a href="" class="footer__link">Disclaimer</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">GDPR</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Privacy Policy</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Terms of Service</a></li>
+      <li class="footer__link--wrapper"><a href="" class="footer__link no-cursor">Disclaimer</a></li>
     </ul>
   </div>
   <hr class="footer__hr">
@@ -446,10 +478,10 @@
       <h4 class="footer__credits--img-text">Treat Inc.</h4>
     </div>
     <h5 class="footer__credits--copyright">© 2023 Treact Inc. All Rights Reserved.</h5>
-    <div class="footer__credits--socials">
-      <a href="https://facebook.com" target="_blank" class="footer__credits--socials-img"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"></path></svg></a>
-      <a href="https://twitter.com" target="_blank" class="footer__credits--socials-img"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M22.162 5.656a8.384 8.384 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.21 4.21 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.394 8.394 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 002.087-2.165z"></path></svg></a>
-      <a href="https://youtube.com" target="_blank" class="footer__credits--socials-img"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"></path></svg></a>
+    <div class="footer__credits--socials ">
+      <a href="https://facebook.com" target="_blank" class="footer__credits--socials-img no-cursor"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"></path></svg></a>
+      <a href="https://twitter.com" target="_blank" class="footer__credits--socials-img no-cursor"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M22.162 5.656a8.384 8.384 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.21 4.21 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.394 8.394 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 002.087-2.165z"></path></svg></a>
+      <a href="https://youtube.com" target="_blank" class="footer__credits--socials-img no-cursor"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"></path></svg></a>
     </div>
   </div>
 </div>
