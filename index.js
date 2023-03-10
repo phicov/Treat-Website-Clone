@@ -5,3 +5,7 @@ function openMenu() {
 function closeMenu(){
   document.body.classList.remove('menu--open')
 }
+
+function notYetImplemented() {
+  alert(`!Implemented`)
+}

@@ -67,6 +67,16 @@ nav{
   height: 80px;
 }
 
+.no-ani{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.no-ani__nav{
+  color: #243D63 !important ; 
+  text-decoration: none !important;
+}
+
 .btn__menu{
   background-color: transparent;
   border: none;
@@ -206,6 +216,9 @@ a:hover{
 
 /* HEADING */
 
+#heading {
+  height: 100vh;
+}
 
 .header__container{
   display: flex;
@@ -288,6 +301,10 @@ a:hover{
 
 /* FEATURES */
 
+#features {
+  height: 100vh;
+}
+
 
 .features__text--wrapper{
   text-align: center;
@@ -346,6 +363,9 @@ a:hover{
 
 /* QUALITY WORK SECTION */
 
+#quality_work{
+  height: 100vh;
+}
 
 .quality_work__container{
   display: relative;
@@ -354,7 +374,6 @@ a:hover{
 .quality_work__row{
   display: flex;
   align-items: center;
-  height: 100%;
 }
 
 .quality_work__text{
@@ -375,6 +394,10 @@ a:hover{
 }
 
 /* STEPS SECTION */
+
+#steps {
+  height: 100vh;
+}
 
 
 .steps__row{
@@ -428,6 +451,10 @@ a:hover{
 }
 
 /* VALUES SECTION */
+
+#values {
+  height: 100vh;
+}
 
 .values__text--wrapper{
   max-width: 50%;
@@ -497,6 +524,10 @@ a:hover{
 }
 
 /* PRICING SECTION */
+
+#pricing {
+  height: 100vh;
+}
 
 .pricing__text--wrapper{
   display: flex;
@@ -633,6 +664,12 @@ hr{
 
 /* TESTIMONIALS SECTION */
 
+#testimonials {
+  height: 100vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
 
 
 .testimonials__title{
