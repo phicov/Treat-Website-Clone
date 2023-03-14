@@ -898,6 +898,9 @@ footer{
 /* RESPONSIVE DESIGN */
 
 @media(max-width:1120px){
+  section {
+    height: fit-content !important;
+  }
   .pricing__card{
     width: 100%;
     margin: 32px 80px;
@@ -918,6 +921,7 @@ footer{
 
 /* LAPTOPS */
 @media(max-width:1024px){
+
   .nav__links{
     scale: 0;
   }
